@@ -1,5 +1,6 @@
+import GlobalProvider from "@/utils/GlobalProvider";
 import "./globals.css";
-import GlobalProvider from "./utils/GlobalProvider";
+
 
 export const metadata = {
   title: "Create Next App",
