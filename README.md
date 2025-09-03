@@ -45,7 +45,7 @@ Includes **Redux Toolkit, Redux Persist, Axios, Tailwind CSS, Theme Toggle (Dark
 
   
     git clone https://github.com/rockey223/nextJsStarterTemplate.git
-    cd nextJsStarterTemplate
+    cd nextjs-starter-template
 
    
 
@@ -86,29 +86,29 @@ Includes **Redux Toolkit, Redux Persist, Axios, Tailwind CSS, Theme Toggle (Dark
   ```
   
   
-  
 
-    npm install
-    
-    # or
-    
+      npm install
+
+#or
+
     yarn install
-    
-    # or
-    
-    pnpm install
+
+#or 
+
+    pnp install
+
    
 ---
 
-    npm run dev
+     npm run dev
 
-    # or
-    
+#or
+
     yarn run dev
-    
-    # or
-    
-    pnpm run dev
+
+#or 
+
+    pnp run dev
 
 
   
