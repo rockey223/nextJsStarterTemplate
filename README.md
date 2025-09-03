@@ -118,6 +118,7 @@ Includes **Redux Toolkit, Redux Persist, Axios, Tailwind CSS, Theme Toggle (Dark
 
    
 ---
+## Run Development Server
 ```
     npm run dev
 ```
