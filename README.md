@@ -36,18 +36,31 @@ Includes **Redux Toolkit, Redux Persist, Axios, Tailwind CSS, Theme Toggle (Dark
 
   
 
----
 
+    ---
+  ## 📂 Folder Structure
+
+
+    src/
+    
+    ├── app/
+    │ ├── favicon.ico 
+    | ├── layout.js # Root layout
+    | ├── gobal.css # Root css
+    | ├── page.js # Example homepage (Hero section + Theme toggle)
+    ├── components/
+    │ ├── ThemeToggleButton.jsx # Floating theme toggle button
+    ├── lib/
+    | ├──actions/
+    | |	├── themeSlice.js #action to change theme
+    │ ├── store.js # Redux + Persist configuration
+    | ├── createWebStorage.js # creates localstorage
+    ├── utils/
+    | ├── axios.js # Axios setup
+    | ├── GlobalProvider.jsx #provider for all the client side components
   
-  
 
-##  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30"/> Clone Template
 
-  
-    git clone https://github.com/rockey223/nextJsStarterTemplate.git
-    cd nextjs-starter-template
-
-   
 
 ##  📦 Installed Dependencies
 
@@ -84,55 +97,40 @@ Includes **Redux Toolkit, Redux Persist, Axios, Tailwind CSS, Theme Toggle (Dark
 }
 
   ```
-  
-  
+  ##  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30"/> Clone Template
 
-      npm install
+  
+    git clone https://github.com/rockey223/nextJsStarterTemplate.git
+    cd nextjs-starter-template
 
+## Install Dependencies
+
+   ```
+       npm install
+```
 #or
-
+```
     yarn install
-
+```
 #or 
 
-    pnp install
+        pnp install
 
    
 ---
-
-     npm run dev
-
+```
+    npm run dev
+```
 #or
-
+```
     yarn run dev
-
+```
 #or 
-
+```
     pnp run dev
+```
 
 
-  
-  ---
-  ## 📂 Folder Structure
-
-
-    src/
-    
-    ├── app/
-    │ ├── favicon.ico 
-    | ├── layout.js # Root layout
-    | ├── gobal.css # Root css
-    | ├── page.js # Example homepage (Hero section + Theme toggle)
-    ├── components/
-    │ ├── ThemeToggleButton.jsx # Floating theme toggle button
-    ├── lib/
-    | ├──actions/
-    | |	├── themeSlice.js #action to change theme
-    │ ├── store.js # Redux + Persist configuration
-    | ├── createWebStorage.js # creates localstorage
-    ├── utils/
-    | ├── axios.js # Axios setup
-    | ├── GlobalProvider.jsx #provider for all the client side components
     
 
 
